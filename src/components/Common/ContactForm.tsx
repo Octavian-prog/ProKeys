@@ -10,10 +10,10 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="contact-section bg-gradient-to-br from-blue-900 via-blue-800 to-gray-900 text-white py-16 px-6">
+    <section className="contact-section mt-7 bg-gradient-to-br from-gray-300 via-gray-800 to-gray-900 text-white py-16 px-6">
       <div className="max-w-4xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
-        <p className="text-lg text-gray-300 ">
+        <h2 className="text-4xl font-bold font-light mb-4">Get in Touch</h2>
+        <p className="text-lg font-semibold text-gray-300 ">
           Have questions or need assistance? Send us a message, and we'll get back to you as soon as possible.
         </p>
       </div>

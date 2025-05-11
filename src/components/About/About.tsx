@@ -1,6 +1,5 @@
-// src/components/About/About.tsx
-import React from 'react';
-
+import "../../assets/images/image1.jpg";
+import "../../assets/images/image2.jpg";
 const About = () => {
   return (
     <div className="about p-20 bg-gray-100 rounded-lg shadow-md text-center mt-10 bg-gradient-to-br from-red-500 via-yellow-300 to-orange-500 text-white">
@@ -13,12 +12,12 @@ const About = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <img
-            src="https://via.placeholder.com/300"
+            src={require("../../assets/images/image1.jpg")}
             alt="Store"
             className="w-full h-48 object-cover rounded-lg shadow-md"
           />
           <img
-            src="https://via.placeholder.com/300"
+            src={require("../../assets/images/image2.jpg")}
             alt="Mobile Workshop"
             className="w-full h-48 object-cover rounded-lg shadow-md"
           />
@@ -75,3 +74,4 @@ const About = () => {
 };
 
 export default About;
+

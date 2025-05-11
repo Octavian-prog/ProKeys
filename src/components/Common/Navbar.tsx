@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed bg-opacity-0 top-0 w-full z-50 transition-all duration-300 bg-gradient-to-r from-orange-600 via-yellow-500 to-red-500 ${
+      className={`font-serif fixed bg-opacity-0 top-0 w-full z-50 transition-all duration-300 bg-gradient-to-r from-gray-600 via-gray-500 to-orange-500 ${
         scrolled
           ? "bg-gray-500 bg-opacity-10 shadow-lg"
           : isDarkBackground
@@ -68,7 +68,7 @@ const Navbar = () => {
         >
           <Link
             to="/"
-            className={`text-xl ${
+            className={`text-xl font-bold ${
               scrolled || isDarkBackground ? "text-white" : "text-black"
             }  hover:text-yellow-400 scale-125  transition duration-300`}
             onClick={() => setOpen(false)}
@@ -77,7 +77,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/about"
-            className={`text-xl ${
+            className={`text-xl font-bold ${
               scrolled || isDarkBackground ? "text-white" : "text-black"
             }  hover:text-yellow-400 scale-125  transition duration-300`}
             onClick={() => setOpen(false)}
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/services"
-            className={`text-xl ${
+            className={`text-xl font-bold ${
               scrolled || isDarkBackground ? "text-white" : "text-black"
             }  hover:text-yellow-400 scale-125  transition duration-300`}
             onClick={() => setOpen(false)}
@@ -95,7 +95,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/shop"
-            className={`text-xl ${
+            className={`text-xl font-bold ${
               scrolled || isDarkBackground ? "text-white" : "text-black"
             }  hover:text-yellow-400 scale-125  transition duration-300`}
             onClick={() => setOpen(false)}
@@ -104,7 +104,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/contact"
-            className={`text-lg ${
+            className={`text-lg font-bold ${
               scrolled || isDarkBackground ? "text-white" : "text-black"
             }  hover:text-yellow-400 scale-125  transition duration-300`}
             onClick={() => setOpen(false)}
@@ -120,7 +120,7 @@ const Navbar = () => {
         >
           <span
             className={`h-1 w-6 hover: ${
-              scrolled || isDarkBackground ? "bg-white" : "bg-black"
+              scrolled || isDarkBackground ? " bg-white" : "bg-black"
             } transition-transform duration-300 ${
               open ? "rotate-45 translate-y-2" : ""
             }`}
@@ -140,6 +140,7 @@ const Navbar = () => {
             }`}
           ></span>
         </div>
+
       </div>
     </nav>
   );

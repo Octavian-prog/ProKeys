@@ -14,7 +14,7 @@ const Footer = () => {
   }, []);
   return (
     // <footer className="footer bg--800 text-white text-center py-4 w-full">
-    <footer className="footer text-white text-center py-4 w-full bg-gradient-to-r from-orange-600 via-yellow-500 to-red-500">
+    <footer className="footer text-white text-center py-4 w-full bg-gradient-to-r  from-orange-600 via-gray-500 to-gray-500">
       <div className="flex justify-center gap-6">
         <Link
           to="/contact"
