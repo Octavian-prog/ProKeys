@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="w-full bg-gradient-to-br from-neutral-900 via-neutral-800 to-black text-white py-20 px-6 mt-24">
+    <section className="min-h-screen bg-gradient-to-br from-neutral-900 via-neutral-800 to-black text-white py-20 px-6 mt-10">
       <div className="max-w-6xl mx-auto">
         {/* Titlu și descriere */}
         <div className="text-center mb-12" data-aos="fade-up">

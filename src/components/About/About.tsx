@@ -2,7 +2,7 @@ import "../../assets/images/image1.jpg";
 import "../../assets/images/image2.jpg";
 const About = () => {
   return (
-    <div className="about p-20 bg-gray-100 rounded-lg shadow-md text-center mt-10 bg-gradient-to-br from-red-500 via-yellow-300 to-orange-500 text-white">
+    <div className="about p-20 min-h-screen bg-gray-100 rounded-lg shadow-md text-center mt-10 bg-gradient-to-br from-red-500 via-yellow-300 to-orange-500 text-white">
       {/* Secțiunea de descriere */}
       <div className="description mb-12 bg-gradient-to-br from-red-700 via-yellow-500 to-orange-100">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">Cheia problemei tale!</h2>
